@@ -1,0 +1,112 @@
+# Site
+title:              Madhbhavikar
+bio:                'Ignited BulbHeads'
+description:        'Ignited BulbHeads'
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.svg'
+background:         'assets/img/background.svg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                http://www.madhbhavikar.online
+search_enabled:      true
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   madhbhavikar
+
+# Social
+# if you don't have any of social below, comment the line.
+google:
+  plus:            PrasadMadhbhavikar
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+email:              connected.madhbhavikar@gmail.com
+twitter:            prasadm6
+#facebook:           username
+github-url:         madhbhavikar
+stackoverflow:      2234781/prasad
+linkedin:           pmadhbhavikar
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
+defaults:
+  scope:
+    path: "posts"
+    type: "posts"
+  values:
+    layout: post
+    published: false
+    category: "posts"
+    comments: true
+  scope:
+    path: "projects"
+    type: "projects"
+  values:
+    layout: project
+    published: false
+    category: "projects"
+    comments: true
+  scope:
+    path: "legal"
+    type: "policy"
+  values:
+    layout: policy
+    published: false
+    category: "policies"
+    comments: false
+  scope:
+    path: "about"
+    type: "about"
+  values:
+    layout: about
+    published: false
+    category: "about"
+    comments: false
+  
