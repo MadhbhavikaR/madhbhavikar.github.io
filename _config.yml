@@ -8,7 +8,7 @@ logo:               'assets/img/logo.svg'
 background:         'assets/img/background.svg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://www.madhbhavikar.online
+url:                http://blog.madhbhavikar.stream
 search_enabled:      true
 
 # Jekyll
@@ -27,23 +27,23 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   madhbhavikar
+#disqus_shortname:   madhbhavikar
 
 # Social
 # if you don't have any of social below, comment the line.
-google:
-  plus:            PrasadMadhbhavikar
+#google:
+  #plus:            PrasadMadhbhavikar
   #analytics:
   #verify:
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              connected.madhbhavikar@gmail.com
-twitter:            prasadm6
+#email:              connected.madhbhavikar@gmail.com
+#twitter:            prasadm6
 #facebook:           username
 github-url:         madhbhavikar
 stackoverflow:      2234781/prasad
-linkedin:           pmadhbhavikar
+#linkedin:           pmadhbhavikar
 #xing:              username
 #instagram:          username
 #lastfm:            username
